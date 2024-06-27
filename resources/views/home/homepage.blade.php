@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Contact, ​We’d love to hear from you, ​Visit Our Office">
     <meta name="description" content="">
-    <title>Landing Page</title>
+    <title>​Neighborhood</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Landing-Page.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -64,7 +64,7 @@
           <div class="u-container-layout u-container-layout-1">
             <h1 class="u-text u-text-1">Welcome to ​Neighborhood </h1>
             <p class="u-text u-text-default u-text-2">A comprehensive community web app that enhances neighborhood safety, allows residents to request help, sell unwanted items, and stay connected with local events and announcements.</p>
-            <p class="u-text u-text-default u-text-3">Image from <a href="https://freepik.com" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-1">Freepik</a>
+           
             </p>
             <div class="u-form u-grey-5 u-radius-20 u-form-1">
               <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-horizontal u-form-spacing-10 u-inner-form" source="email" name="form" style="padding: 20px;">
