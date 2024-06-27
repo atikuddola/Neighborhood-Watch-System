@@ -63,7 +63,7 @@
         <div class="u-container-style u-expanded-width u-group u-image u-radius-50 u-shape-round u-image-1" data-image-width="2250" data-image-height="1500" data-animation-name="customAnimationIn" data-animation-duration="2000">
           <div class="u-container-layout u-container-layout-1">
             <h1 class="u-text u-text-1">Welcome to ​Neighborhood </h1>
-            <p class="u-text u-text-default u-text-2">Sample text. Click to select the Text Element.</p>
+            <p class="u-text u-text-default u-text-2">A comprehensive community web app that enhances neighborhood safety, allows residents to request help, sell unwanted items, and stay connected with local events and announcements.</p>
             <p class="u-text u-text-default u-text-3">Image from <a href="https://freepik.com" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-1">Freepik</a>
             </p>
             <div class="u-form u-grey-5 u-radius-20 u-form-1">
