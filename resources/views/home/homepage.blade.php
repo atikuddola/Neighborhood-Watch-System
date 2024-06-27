@@ -42,7 +42,7 @@
           </div>
           <div class="u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Page-1.html" style="padding: 10px 20px;">Login</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Landing-Page.html" style="padding: 10px 20px;">About</a>
+</li><li class="u-nav u-unstyled u-nav-1"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Landing-Page.html" style="padding: 10px 20px;">About</a>
 </li></ul>
           </div>
           <div class="u-nav-container-collapse">
