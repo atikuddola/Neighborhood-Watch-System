@@ -169,7 +169,7 @@
         <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the Text Element.</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-    <p class="u-small-text u-text u-text-variant u-text-1"></p>
+    <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the Text Element.</p>
     </section>
   
 </body></html>
