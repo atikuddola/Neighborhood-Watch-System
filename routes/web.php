@@ -6,7 +6,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'homepage']);
-Route::get('/dashboard.html', [HomeController::class, 'dashboard']);
+Route::get('/e10Rt45', [HomeController::class, 'dashboard']);
 // Route::get('/login', [HomeController::class, 'login']);
 
 
