@@ -6,6 +6,10 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'homepage']);
+Route::get('/dashboard.html', [HomeController::class, 'dashboard']);
+Route::get('/brac', [HomeController::class, 'login']);
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
