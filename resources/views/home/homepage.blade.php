@@ -66,7 +66,7 @@
             <p class="u-text u-text-default u-text-2">A comprehensive community web app that enhances neighborhood safety, allows residents to request help, sell unwanted items, and stay connected with local events and announcements.</p>
            
             </p>
-            <div class="u-form u-grey-5 u-radius-20 u-form-1">
+            <!-- <div class="u-form u-grey-5 u-radius-20 u-form-1">
               <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-horizontal u-form-spacing-10 u-inner-form" source="email" name="form" style="padding: 20px;">
                 <div class="u-form-email u-form-group u-label-none">
                   <label for="email-3a86" class="u-label">Email</label>
@@ -81,7 +81,7 @@
                 <input type="hidden" value="" name="recaptchaResponse">
                 <input type="hidden" name="formServices" value="740201fb-d3ef-98f0-0aa6-b387c6c39940">
               </form>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
