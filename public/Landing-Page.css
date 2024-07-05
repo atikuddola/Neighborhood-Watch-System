@@ -7,8 +7,9 @@
   margin-top: 60px;
   margin-bottom: 60px;
   height: auto;
-  background-image: url("images/pexels-photo-532568.jpeg");
+  background-image: url("images/bg.jpg");
   background-position: 50% 50%;
+  background-size: cover;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -21,11 +22,11 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 123px 383px 0 0;
+  margin: 90px 383px 0 20px;
 }
 
 .u-section-1 .u-text-2 {
-  margin: 20px 707px 0 0;
+  margin: 20px 400px 0 20px;
 }
 
 .u-section-1 .u-text-3 {
@@ -151,6 +152,12 @@
 .u-section-2 .u-container-layout-2 {
   padding: 30px;
 }
+
+
+.u-palette-2-light-3 {
+  background-color: #A9ABA2; /* Replace with your desired color code */
+}
+
 
 .u-section-2 .u-form-1 {
   margin-bottom: 0;
