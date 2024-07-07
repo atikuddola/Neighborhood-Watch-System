@@ -212,6 +212,7 @@
   }
 } .u-section-3 {
   background-image: none;
+  padding-bottom: 30px;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -236,10 +237,10 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-auto-columns: calc(33.3333% - 12.6667px);
-  grid-template-columns: repeat(3, calc(33.3333% - 12.6667px));
+  grid-auto-columns: calc(25% - 12.6667px);
+  grid-template-columns: repeat(4, calc(25% - 12.6667px));
   min-height: 324px;
-  grid-gap: 19px;
+  grid-gap: 25px;
 }
 
 .u-section-3 .u-list-item-1 {
