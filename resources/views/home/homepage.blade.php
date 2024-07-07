@@ -132,8 +132,8 @@
     </section>
     <section class="u-clearfix u-palette-1-light-3 u-section-3" id="sec-da56">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1"> Visit Our Office</h2>
-        <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-2">Sample text. Click to select the Text Element.</p>
+        <h2 class="u-text u-text-default u-text-1"> Developer's Team</h2>
+        <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-2">Nerds who developed this web app</p>
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-container-align-left u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-1">
@@ -155,6 +155,14 @@
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3"><span class="u-align-left u-file-icon u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-3"><img src="images/3654976-85b3ec49.png" alt=""></span>
                 <h5 class="u-text u-text-default u-text-7">New York</h5>
                 <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-8"> 5656 21nd Ave, Seattle, WA 98456<br>(315) 905-4567
+                </p>
+              </div>
+            </div>
+            <div class="u-container-align-left u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-1">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1"><span class="u-align-left u-file-icon u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-1"><img src="images/1206849-dba2a207.png" alt=""></span>
+                <h5 class="u-text u-text-default u-text-3">Paris<br>
+                </h5>
+                <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-4"> 5656 21nd Ave, Seattle, WA 98456<br>(315) 905-4567
                 </p>
               </div>
             </div>
