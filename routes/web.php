@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'homepage']);
 Route::get('/e10Rt45', [HomeController::class, 'dashboard']);
-// Route::get('/login', [HomeController::class, 'login']);
+Route::get('/rE2drd3', [ProfileController::class, 'userdashboard']);
 
 
 
