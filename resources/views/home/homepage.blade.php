@@ -146,21 +146,21 @@
             </div>
             <div class="u-container-align-left u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-2">
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2"><span class="u-align-left u-file-icon u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-2"><img src="images/3654928-9a374089.png" alt=""></span>
-                <h5 class="u-text u-text-default u-text-5">Kawser Habib</h5>
-                <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-6"> 5656 21nd Ave, Seattle, WA 98456<br>(315) 905-4567
+                <h5 class="u-text u-text-default u-text-5">Kawsar Habib</h5>
+                <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-6">Address: Gulshan 1,Dhaka<br>Phone: +8801723158330
                 </p>
               </div>
             </div>
             <div class="u-container-align-left u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-3">
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3"><span class="u-align-left u-file-icon u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-3"><img src="images/3654976-85b3ec49.png" alt=""></span>
-                <h5 class="u-text u-text-default u-text-7">Nafizur Bhuiya</h5>
+                <h5 class="u-text u-text-default u-text-7">Nafizur Rahman</h5>
                 <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-8"> 5656 21nd Ave, Seattle, WA 98456<br>(315) 905-4567
                 </p>
               </div>
             </div>
             <div class="u-container-align-left u-container-style u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-1">
               <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1"><span class="u-align-left u-file-icon u-icon u-icon-circle u-palette-1-light-2 u-text-white u-icon-1"><img src="images/1206849-dba2a207.png" alt=""></span>
-                <h5 class="u-text u-text-default u-text-3">Tasmin Oni<br>
+                <h5 class="u-text u-text-default u-text-3">Tasmin Ahmed<br>
                 </h5>
                 <p class="u-custom-font u-font-ubuntu u-text u-text-default u-text-4"> 5656 21nd Ave, Seattle, WA 98456<br>(315) 905-4567
                 </p>
