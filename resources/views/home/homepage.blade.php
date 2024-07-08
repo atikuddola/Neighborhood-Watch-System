@@ -13,11 +13,11 @@
     <meta name="referrer" content="origin">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i">
-    
-    
-    
-    
-    
+
+
+
+
+
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -64,7 +64,7 @@
           <div class="u-container-layout u-container-layout-1">
             <h1 class="u-text u-text-1">Welcome to ​Neighborhood </h1>
             <p class="u-text u-text-default u-text-2">A comprehensive community web app that enhances neighborhood safety, allows residents to request help, sell unwanted items, and stay connected with local events and announcements.</p>
-           
+
             </p>
             <!-- <div class="u-form u-grey-5 u-radius-20 u-form-1">
               <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-horizontal u-form-spacing-10 u-inner-form" source="email" name="form" style="padding: 20px;">
@@ -170,14 +170,14 @@
         </div>
       </div>
     </section>
-    
-    
-    
+
+
+
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-63bf"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Macbook dorkar</p>
+        <p class="u-small-text u-text u-text-variant u-text-1">MacBook Dorkar</p>
       </div></footer>
     <!-- <section class="u-backlink u-clearfix u-grey-80">
     <p class="u-small-text u-text u-text-variant u-text-1">Urgent iPad dorkar</p>
     </section> -->
-  
+
 </body></html>
