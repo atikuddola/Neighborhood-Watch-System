@@ -12,7 +12,7 @@ Route::get('/e10Rt45', [HomeController::class, 'dashboard']);
 
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('dashboard.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
