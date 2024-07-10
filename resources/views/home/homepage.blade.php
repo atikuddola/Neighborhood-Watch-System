@@ -99,28 +99,29 @@
               <div class="u-container-style u-layout-cell u-palette-2-light-3 u-radius-40 u-size-30 u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="2000">
                 <div class="u-container-layout u-container-layout-2">
                   <div class="u-expanded-width u-form u-form-1">
-                    <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form-1" style="padding: 10px;">
-                      <div class="u-form-group u-form-name">
-                        <label for="name-ed47" class="u-label">Name</label>
-                        <input type="text" placeholder="Enter your Name" id="name-ed47" name="name" class="u-border-none u-input u-input-rectangle u-radius-20" required="">
-                      </div>
-                      <div class="u-form-email u-form-group">
-                        <label for="email-ed47" class="u-label">Email</label>
-                        <input type="email" placeholder="Enter a valid email address" id="email-ed47" name="email" class="u-border-none u-input u-input-rectangle u-radius-20" required="">
-                      </div>
-                      <div class="u-form-group u-form-message">
-                        <label for="message-ed47" class="u-label">Message</label>
-                        <textarea placeholder="Enter your message" rows="4" cols="50" id="message-ed47" name="message" class="u-border-none u-input u-input-rectangle u-radius-20" required=""></textarea>
-                      </div>
-                      <div class="u-align-left u-form-group u-form-submit">
-                        <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
-                        <input type="submit" value="submit" class="u-form-control-hidden">
-                      </div>
-                      <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-                      <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-                      <input type="hidden" value="" name="recaptchaResponse">
-                      <input type="hidden" name="formServices" value="740201fb-d3ef-98f0-0aa6-b387c6c39940">
-                    </form>
+                      <form action="{{ route('form.store') }}" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px;">
+                          @csrf
+                          <div class="u-form-group u-form-name">
+                              <label for="name-ed47" class="u-label">Name</label>
+                              <input type="text" placeholder="Enter your Name" id="name-ed47" name="name" class="u-border-none u-input u-input-rectangle u-radius-20" required="">
+                          </div>
+                          <div class="u-form-email u-form-group">
+                              <label for="email-ed47" class="u-label">Email</label>
+                              <input type="email" placeholder="Enter a valid email address" id="email-ed47" name="email" class="u-border-none u-input u-input-rectangle u-radius-20" required="">
+                          </div>
+                          <div class="u-form-group u-form-message">
+                              <label for="message-ed47" class="u-label">Message</label>
+                              <textarea placeholder="Enter your message" rows="4" cols="50" id="message-ed47" name="message" class="u-border-none u-input u-input-rectangle u-radius-20" required=""></textarea>
+                          </div>
+                          <div class="u-align-left u-form-group u-form-submit">
+                              <button type="submit" class="u-btn u-btn-submit u-button-style">Submit</button>
+                          </div>
+                          <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+                          <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
+                          <input type="hidden" name="recaptchaResponse" value="">
+                          <input type="hidden" name="formServices" value="740201fb-d3ef-98f0-0aa6-b387c6c39940">
+                      </form>
+
                   </div>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\FormController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -8,6 +9,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'homepage']);
 Route::get('/e10Rt45', [HomeController::class, 'dashboard']);
 Route::get('/rE2drd3', [ProfileController::class, 'userdashboard']);
+//Route::post('/submit-form', [FormController::class, 'store'])->name('form.store');
+
+Route::post('form.store', function () {
+    return response()->json(['message' => 'Route is working']);
+})->name('form.store');
+
 
 
 
