@@ -9,11 +9,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'homepage']);
 Route::get('/e10Rt45', [HomeController::class, 'dashboard']);
 Route::get('/rE2drd3', [ProfileController::class, 'userdashboard']);
-//Route::post('/submit-form', [FormController::class, 'store'])->name('form.store');
+Route::post('form.store', [FormController::class, 'store'])->name('form.store');
 
-Route::post('form.store', function () {
-    return response()->json(['message' => 'Route is working']);
-})->name('form.store');
 
 
 
