@@ -120,7 +120,6 @@
                               submitButton.addEventListener('click', function() {
                                   // Refresh the page after form submission
                                   window.location.reload();
-                                  
                               });
                           </script>
                       </form>
