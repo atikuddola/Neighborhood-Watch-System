@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
+<html style="font-size: 16px;" lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="keywords" content="Contact, ​We’d love to hear from you, ​Visit Our Office">
@@ -14,8 +14,6 @@
     <meta name="referrer" content="origin">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i">
-
-
 
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -41,7 +39,7 @@
           </div>
           <div class="u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ route('login') }}" style="padding: 10px 20px;">Login</a>
-</li><li class="u-nav u-unstyled u-nav-1"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="" style="padding: 10px 20px;">About Us</a>
+</li><li class="u-nav u-unstyled u-nav-1"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/form" style="padding: 10px 20px;">About Us</a>
 </li></ul>
           </div>
           <div class="u-nav-container-collapse">
@@ -113,13 +111,18 @@
                               <label for="message-ed47" class="u-label">Message</label>
                               <textarea placeholder="Enter your message" rows="4" cols="50" id="message-ed47" name="message" class="u-border-none u-input u-input-rectangle u-radius-20" required=""></textarea>
                           </div>
-                          <div class="u-align-left u-form-group u-form-submit">
-                              <button type="submit" class="u-btn u-btn-submit u-button-style">Submit</button>
+                          <div id="submit-container">
+                              <button type="submit" id="submit-button" style="background-color: #B37741; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
                           </div>
-                          <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
-                          <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
-                          <input type="hidden" name="recaptchaResponse" value="">
-                          <input type="hidden" name="formServices" value="740201fb-d3ef-98f0-0aa6-b387c6c39940">
+                          <script>
+                              const submitButton = document.getElementById('submit-button');
+
+                              submitButton.addEventListener('click', function() {
+                                  // Refresh the page after form submission
+                                  window.location.reload();
+                                  
+                              });
+                          </script>
                       </form>
 
                   </div>
@@ -176,8 +179,6 @@
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-63bf"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">MacBook Dorkar</p>
       </div></footer>
-    <!-- <section class="u-backlink u-clearfix u-grey-80">
-    <p class="u-small-text u-text u-text-variant u-text-1">Urgent iPad dorkar</p>
-    </section> -->
+
 
 </body></html>

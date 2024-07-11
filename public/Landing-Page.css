@@ -20,6 +20,10 @@
 .u-section-1 .u-container-layout-1 {
   padding: 30px;
 }
+.u-section-1 .u-container-layout button:hover {
+    background-color: #0056b3;
+}
+
 
 .u-section-1 .u-text-1 {
   margin: 90px 383px 0 20px;
@@ -29,6 +33,9 @@
   margin: 20px 400px 0 20px;
 }
 
+.submit-button:hover {
+    background-color: #996633; /* Change background color on hover */
+}
 .u-section-1 .u-text-3 {
   margin: 30px auto 0 0;
 }
@@ -210,6 +217,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+
+
+
 } .u-section-3 {
   background-image: none;
   padding-bottom: 30px;
@@ -275,6 +286,8 @@
 .u-section-3 .u-container-layout-2 {
   padding: 30px;
 }
+
+
 
 .u-section-3 .u-icon-2 {
   width: 112px;
