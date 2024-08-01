@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Feed</title>
+    <title>Feed</title>
     <!-- Font Awesome for Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -13,7 +13,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-links">
-            <div class="brand-logo">SocialApp</div>
+            <div class="brand-logo">Neighborhood</div>
             <div class="links">
                 <a href="#"><i class="fas fa-home"></i></a>
                 <a href="#"><i class="fas fa-envelope"></i></a>
