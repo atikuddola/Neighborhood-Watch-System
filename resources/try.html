@@ -11,10 +11,9 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <!-- Navigation Bar -->
-<nav class="navbar">
-    <div class="nav-links">
-        <div class="brand-logo">Neighborhood</div>
+    <nav class="navbar">
+        <div class="nav-links">
+            <div class="brand-logo">Neighborhood</div>
             <div class="links">
                 <a href="#"><i class="fas fa-home"></i></a>
                 <a href="#"><i class="fas fa-envelope"></i></a>
@@ -22,36 +21,44 @@
                     <a href="#"><i class="fas fa-user"></i></a>
                     <div class="dropdown-content">
                         <a href="#">My Profile</a>
-                        <!-- Logout Form -->
-                        <form id="logout-form" method="POST" action="{{ route('logout') }}" style="display: none;">
-                            @csrf
-                            <button type="submit">Logout</button>
-                        </form>
-                        <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                        <form method="POST" action="{{ route('logout') }}">
+                          @csrf
+                            <a class="dropdown-item" href=""
+                               onclick="event.preventDefault();
+                               this.closest('form').submit();">Logout</a>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </nav>
 
-
     <!-- Main Content -->
     <div class="container">
         <!-- Status Post Form -->
         <div class="post-form">
             <h5>Post a Status</h5>
-            <form id="status-form" method = "POST" action='/post_req'>
+            <form id="status-form" method="POST" action="/post_req" enctype="multipart/form-data">
                 @csrf
-                <textarea id="status-text" name = "status" placeholder="What's on your mind?"></textarea>
-                <div class="file-upload">
-                    <label for="status-photo">
-                        <input type="file" id="status-photo">
-                        <span>Upload a photo</span>
-                    </label>
-                </div>
-                <button class="btn" type="submit">Post</button>
-            </form>
 
+                <!-- Container for the input field -->
+                <div class="input-container">
+                    <input type="text" id="status-text" name="status" placeholder="What's on your mind?" size="50">
+                </div>
+
+                <!-- Uncomment and modify this section if you want to include file upload -->
+                <!-- <div class="file-upload">
+                    <label for="status-photo">
+                        <input type="file" id="status-photo" name="photo">
+                        <span>Upload a photo (optional)</span>
+                    </label>
+                </div> -->
+
+                <!-- Container for the submit button -->
+                <div class="button-container">
+                    <button class="btn" type="submit">Post</button>
+                </div>
+            </form>
 
         </div>
 

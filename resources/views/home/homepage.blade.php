@@ -97,7 +97,7 @@
               <div class="u-container-style u-layout-cell u-palette-2-light-3 u-radius-40 u-size-30 u-layout-cell-2" data-animation-name="customAnimationIn" data-animation-duration="2000">
                 <div class="u-container-layout u-container-layout-2">
                   <div class="u-expanded-width u-form u-form-1">
-                      <form action="{{ route('form.store') }}" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px;">
+                      <form action="/home_message" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px;">
                           @csrf
                           <div class="u-form-group u-form-name">
                               <label for="name-ed47" class="u-label">Name</label>

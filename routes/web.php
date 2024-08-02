@@ -4,14 +4,15 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\FeedController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'homepage']);
 Route::get('/e10Rt45', [HomeController::class, 'dashboard']);
 Route::get('/rE2drd3', [ProfileController::class, 'userdashboard']);
 Route::get('/form', [HomeController::class, 'form']);
-Route::post('/', [FormController::class, 'store'])->name('form.store');
-
+Route::post('/home_message', [FormController::class, 'store']);
+Route::post('/post_req', [FeedController::class, 'store']);
 
 
 
